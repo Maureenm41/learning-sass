@@ -100,6 +100,9 @@ i {
   width: 400px;
   height: 320px;
   background-color: #BD687C;
+  position: absolute;
+  left: 0;
+  top: 250px;
 }
 
 .date {

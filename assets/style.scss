@@ -86,7 +86,7 @@ html
     font-size:25px;
     @include button-bg( #e46383);
    }
-   
+
 h1
 {
     font-size: 40px;
@@ -98,3 +98,15 @@ h2
     font-size: 30px;
 }
 
+i
+{
+    font-size: 20px;
+    color: #A1A1A1;
+ 
+}
+
+.main
+{
+    width: 500px;
+    height: 700px;
+}

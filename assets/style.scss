@@ -30,3 +30,12 @@ a
         text-decoration: underline;
     }
 }
+
+.foo
+{
+    background: orange;
+    &.block
+    {
+        
+    }
+}

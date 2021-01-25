@@ -65,9 +65,21 @@ html
   height: 500px;
 }
 
-button {
-  background-color: #e46383;
-  font-size: 20px;
+.btn {
+  color: #000;
+  padding: 5px 10px;
+  font-size: 25px;
+  background: #e46383;
+}
+
+.btn:hover {
+  background: #de4067;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.btn:active {
+  background: #aa1d40;
 }
 
 h1 {

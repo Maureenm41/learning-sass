@@ -98,6 +98,16 @@ i {
 
 .main {
   width: 400px;
-  height: 700px;
+  height: 320px;
+  background-color: #BD687C;
+}
+
+.date {
+  font-size: 25px;
+  position: absolute;
+  top: 8px;
+  right: 1111px;
+  background-color: #FFD4E7;
+  border-radius: 600px;
 }
 /*# sourceMappingURL=style.css.map */

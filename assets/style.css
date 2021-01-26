@@ -118,34 +118,43 @@ i {
 }
 
 .text {
-  overflow: hidden;
-  height: 0;
+  -webkit-transition: visibility 0s linear 0.7s, opacity 0.7s ease-in-out;
+  transition: visibility 0s linear 0.7s, opacity 0.7s ease-in-out;
 }
 
-.text :hover {
-  -webkit-animation: show 2s linear;
-          animation: show 2s linear;
+.text.hidden {
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+  opacity: 0;
+  visibility: hidden;
 }
 
-@-webkit-keyframes show {
-  0% {
+.text.visible {
+  -webkit-transition-delay: 3s;
+          transition-delay: 3s;
+  visibility: visible;
+  opacity: 1;
+}
+
+/*
+{
     overflow: hidden;
     height: 0;
-  }
-  100% {
-    overflow: visible;
-    height: 10rem;
-  }
+}
+.text :hover
+{
+    animation: show 2s linear;
 }
 
 @keyframes show {
-  0% {
-    overflow: hidden;
-    height: 0;
-  }
-  100% {
-    overflow: visible;
-    height: 10rem;
-  }
+    0% {
+        overflow: hidden;
+        height: 0;
+    }
+    100% {
+        overflow: visible;
+        height: 10rem;
+    }
 }
+*/
 /*# sourceMappingURL=style.css.map */

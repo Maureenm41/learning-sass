@@ -65,6 +65,16 @@ html
   height: 500px;
 }
 
+.skytree {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.skytree :hover {
+  opacity: .5;
+}
+
 .btn {
   position: absolute;
   top: 215px;

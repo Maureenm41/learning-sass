@@ -124,3 +124,25 @@ i
     background-color:#FFD4E7 ;
     border-radius: 600px;
 }
+
+.text
+{
+    overflow: hidden;
+    height: 0;
+}
+.text :hover
+{
+    animation: show 2s linear;
+}
+
+@keyframes show {
+    0% {
+        overflow: hidden;
+        height: 0;
+    }
+    100% {
+        overflow: visible;
+        height: 10rem;
+    }
+}
+

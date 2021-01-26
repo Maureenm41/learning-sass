@@ -113,4 +113,36 @@ i {
   background-color: #FFD4E7;
   border-radius: 600px;
 }
+
+.text {
+  overflow: hidden;
+  height: 0;
+}
+
+.text :hover {
+  -webkit-animation: show 2s linear;
+          animation: show 2s linear;
+}
+
+@-webkit-keyframes show {
+  0% {
+    overflow: hidden;
+    height: 0;
+  }
+  100% {
+    overflow: visible;
+    height: 10rem;
+  }
+}
+
+@keyframes show {
+  0% {
+    overflow: hidden;
+    height: 0;
+  }
+  100% {
+    overflow: visible;
+    height: 10rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
